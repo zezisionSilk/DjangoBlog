@@ -65,7 +65,7 @@ target/
 .iml
 
 DjangoBlog/settings.*
-
+uwsgi_conf/
 migrations/
 !migrations/__init__.py
 collectedstatic/
