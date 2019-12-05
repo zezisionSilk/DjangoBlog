@@ -197,8 +197,8 @@ def get_blog_setting():
             setting = BlogSettings()
             setting.sitename = 'fanBlog'
             setting.site_description = '菜鸡程序员的修行之路'
-            setting.site_seo_description = '基于Django的博客系统'
-            setting.site_keywords = 'Django,Python'
+            setting.site_seo_description = '菜鸡程序员的修行之路'
+            setting.site_keywords = 'fanBlog,Django,Python'
             setting.article_sub_length = 300
             setting.sidebar_article_count = 10
             setting.sidebar_comment_count = 5

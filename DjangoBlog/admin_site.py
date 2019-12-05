@@ -47,7 +47,7 @@ class DjangoBlogAdminSite(AdminSite):
     #     return urls + my_urls
 
 
-admin_site = DjangoBlogAdminSite(name='admin')
+admin_site = DjangoBlogAdminSite(name='fan_admin')
 
 admin_site.register(Article, ArticlelAdmin)
 admin_site.register(Category, CategoryAdmin)
